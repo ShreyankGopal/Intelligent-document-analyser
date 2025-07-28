@@ -79,6 +79,11 @@ A robust hybrid system combining:
   - Classifies headings into `Title`, `H1`, `H2`, `H3` using the engineered feature set
 
 ---
+### 6. Chunking
+
+- Every heading identified by the random forest classifier along with the section text is used as a chunk to create the embeddings
+
+---
 
 ### 5. Semantic Section Assembly
 
