@@ -79,13 +79,13 @@ A robust hybrid system combining:
   - Classifies headings into `Title`, `H1`, `H2`, `H3` using the engineered feature set
 
 ---
-### 6. Chunking
+### 5. Chunking
 
 - Every heading identified by the random forest classifier along with the section text is used as a chunk to create the embeddings
 
 ---
 
-### 5. Semantic Section Assembly
+### 6. Semantic Section Assembly
 
 - Combines headings with subsequent content to construct **hierarchical sections**
 - Generates **384-dimensional embeddings** using `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`
@@ -93,7 +93,7 @@ A robust hybrid system combining:
 
 ---
 
-### 6. MMR-Based Relevance Ranking
+### 7. MMR-Based Relevance Ranking
 
 Implements **Maximal Marginal Relevance (MMR)** with λ = 0.72 to balance:
 
