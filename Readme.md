@@ -6,7 +6,7 @@ Our solution implements a **multi-stage pipeline** that combines structural PDF 
 
 ---
 ## How to Build and Run
-Upload your pdf files and the .json file in /app/input folder
+Upload your pdf files and the .json file in ```/app/input``` folder
 - clone the repository
 - Build the docker image
 ```bash
@@ -21,7 +21,7 @@ docker run --rm \
   document-analyzer
 ```
 
-Your output will be present in /app/output/output.json
+Your output will be present in ```/app/output/output.json```
 ## Core Methodology
 
 ### 1. PDF Structure Extraction
